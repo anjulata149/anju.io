@@ -1,0 +1,61 @@
+body {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    background-image: url(/background2.jpg);
+    background-size: cover;
+
+}
+
+div {
+    height: 200px;
+    width: 100px;
+    border: 2px white solid;
+    color: aqua;
+    margin: 4px;
+    background-color: rgb(57, 56, 77);
+    text-align: center;
+}
+
+#background {
+    height: 100%;
+    width: 1000vw;
+    border: 2px white solid;
+    border-bottom: none;
+    color: aqua;
+    background-image: url(/Screenshot\ 2026-06-19\ 090216-Photoroom.png);
+    background-size: contain;
+    background-repeat: repeat-x;
+    position: fixed;
+    bottom: 0px;
+    left: -500vw;
+    animation: mountain 100s linear 0s infinite normal;
+    text-align: center;
+}
+
+#stage {
+    height: 190px;
+    width: 1000vw;
+    border: none;
+    color: aqua;
+    background-image: url(/stage.png);
+    background-size: contain;
+    background-repeat: repeat-x;
+    position: fixed;
+    bottom: -1px;
+    left: -500vw;
+}
+
+
+@keyframes mountain {
+    0% {
+        transform: translate(200vw, 0);
+    }
+
+
+    100% {
+        transform: translate(-200vw, 0);
+
+
+    }
+}
