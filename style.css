@@ -2,7 +2,7 @@ body {
     height: 1000px;
     display: flex;
     justify-content: center;
-    background-image: url(/background2.jpg);
+    background-color: #121212;
     background-size: cover;
 
 }
@@ -23,7 +23,7 @@ div {
     border: 2px white solid;
     border-bottom: none;
     color: aqua;
-    background-image: url(/Screenshot\ 2026-06-19\ 090216-Photoroom.png);
+    background-image: url(/Background.png);
     background-size: contain;
     background-repeat: repeat-x;
     position: fixed;
@@ -38,7 +38,7 @@ div {
     width: 1000vw;
     border: none;
     color: aqua;
-    background-image: url(/stage.png);
+    background-image: url(/Stage.jpg);
     background-size: contain;
     background-repeat: repeat-x;
     position: fixed;
